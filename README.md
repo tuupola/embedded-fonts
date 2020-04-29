@@ -1,6 +1,6 @@
 ## FONTX2 fonts for embedded projects
 
-This repository contains the classic public domain X Window System bitmap fonts in [FONTX2](http://elm-chan.org/docs/dosv/fontx_e.html) format. Both [C header files](X11/include/) and separate [binary files](X11/fontx2/) are provided.
+This repository contains the classic public domain X Window System bitmap fonts in [FONTX2](http://elm-chan.org/docs/dosv/fontx_e.html) format. Both [C header files](X11/include/) and separate [binary files](X11/fontx2/) together with [PNG previews](https://github.com/tuupola/fonts/tree/master/X11) are provided.
 
 The ISO 10646-1 source files were downloaded from [Dr Markus Kuhn's page](https://www.cl.cam.ac.uk/~mgk25/ucs-fonts.html). The 8-bit encoding variants were generated with the probided Makefile:
 
