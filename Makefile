@@ -17,6 +17,10 @@ XXD=xxd -include
 SED=sed -i ""
 SORT=sort -V
 
+define NEWLINE
+\n
+endef
+
 all: fontx2 header fixheader png
 
 fontx2: $(SRCBDF)/*.bdf
@@ -39,7 +43,7 @@ PNGS = $(ls $(DSTPNG) | $(SORT))
 markdown:
 	-rm X11/README.md
 	echo $(PNGS)
-	$(foreach var, $(shell ls $(DSTPNG) | $(SORT)), echo \#\# $(subst font,,$(basename $(var))) ![]\(png/$(var)\) >> X11/README.md;)
+	$(foreach var, $(shell ls $(DSTPNG) | $(SORT)), echo  \#\# $(subst font,,$(basename $(var))) >> X11/README.md; echo ![]\(png/$(var)\) >> X11/README.md;)
 
 clean:
 	rm $(SRCFONTX2)/*
