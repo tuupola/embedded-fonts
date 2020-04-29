@@ -4,7 +4,7 @@ This repository contains the public domain bitmap fonts to be used in embedded p
 
 ## X Window System
 
-These are the classic public domain X Window System bitmap fonts. ISO 10646-1 source files were downloaded from [Dr Markus Kuhn's page](https://www.cl.cam.ac.uk/~mgk25/ucs-fonts.html) and 8-bit encoding variants were generated with the provided Makefile. See [X11](X117) for preview.
+These are the classic public domain X Window System bitmap fonts. ISO 10646-1 source files were downloaded from [Dr Markus Kuhn's page](https://www.cl.cam.ac.uk/~mgk25/ucs-fonts.html) and 8-bit encoding variants were generated with the provided Makefile. See [X11](X11) for preview.
 
 ```
 $ mkdir ucs-fonts
@@ -26,7 +26,7 @@ $ make
 
 ## Unscii
 
-[Unscii](http://pelulamu.net/unscii/) is a set of bitmapped Unicode fonts based on classic system fonts. Unscii attempts to support character cell art well while also being suitable for terminal and programming use. See [misc/viznut/unscii](misc/viznut/unscii/) for preview.
+[Unscii](http://pelulamu.net/unscii/) is a set of bitmapped Unicode fonts based on classic system fonts. Unscii attempts to support character cell art well while also being suitable for terminal and programming use. See [misc/viznut/](misc/viznut/) for preview.
 
 ```
 $ cd fonts/misc/viznut
