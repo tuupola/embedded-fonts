@@ -32,7 +32,7 @@ header: $(SRCFONTX2)/*
 	$(foreach var, $^, $(XXD) $(var) > $(addprefix $(SRCH)/, $(addsuffix .h, $(basename $(notdir $(var)))));)
 
 fixheader: $(SRCH)/*
-	$(foreach var, $^, $(SED) "s/X11_fontx2_//; s/_fnt\[/\[/; s/_fnt_len /_size /" $(var);)
+	$(foreach var, $^, $(SED) "s/X11_fontx2_//; s/_fnt\[/\[/; s/_fnt_len /_size /; s/unsigned char/const unsigned char/" $(var);)
 
 png: $(SRCFONTX2)/*
 	mkdir -p $(DSTPNG)
