@@ -21,7 +21,7 @@ $ make all-bdfs
 And then regenerate everything.
 
 ```
-$ git clone https://github.com/tuupola/fonts
+$ git clone git@github.com:tuupola/embedded-fonts.git
 $ cd fonts
 $ make
 ```
