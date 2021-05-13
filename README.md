@@ -22,7 +22,7 @@ And then regenerate everything.
 
 ```
 $ git clone git@github.com:tuupola/embedded-fonts.git
-$ cd fonts
+$ cd embedded-fonts
 $ make
 ```
 
