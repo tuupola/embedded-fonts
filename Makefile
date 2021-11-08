@@ -14,7 +14,8 @@ FONTX2PNG=fontx2png --width 640 --spacing 1
 # https://linux.die.net/man/1/xxd
 XXD=xxd -include
 # macOS needs the -i ""
-SED=sed -i ""
+#SED=sed -i ""
+SED=sed -i 
 SORT=sort -V
 
 define NEWLINE
