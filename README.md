@@ -30,7 +30,7 @@ $ make
 
 ![](misc/viznut/png/unscii-8.png)
 
-[Unscii](http://pelulamu.net/unscii/) is a set of bitmapped Unicode fonts based on classic system fonts. Unscii attempts to support character cell art well while also being suitable for terminal and programming use. See [misc/viznut/](misc/viznut/) for preview of all different variants.
+[Unscii](http://viznut.fi/unscii/) is a set of bitmapped Unicode fonts based on classic system fonts. Unscii attempts to support character cell art well while also being suitable for terminal and programming use. See [misc/viznut/](misc/viznut/) for preview of all different variants.
 
 ```
 $ cd fonts/misc/viznut
